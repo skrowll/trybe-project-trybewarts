@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* TAGS */
+main {
+    display: flex;
+  }
 
 /* Classes */
 .header {
@@ -67,4 +70,15 @@
     width: 150px;
     height: 2.3em;
   }
+
+  #evaluation-form {
+      display: flex;
+      width: 675px;
+      flex-direction: column;
+  }
+
+
+  
+
+
 

@@ -5,85 +5,111 @@
 }
 /* TAGS */
 main {
-    display: flex;
-  }
+  display: flex;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+h2 {
+  font-weight: bolder;
+  margin: 20px;
+}
+
+select {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  width: 170px;
+  height: 2.3em;
+  padding-left: 15px;
+}
 
 /* Classes */
+
+/* HEADER INI >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
 .header {
-    /* border: 5px solid rgb(129, 0, 123); */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    width: 100%;
-    background-color: rgb(50, 167, 145);
-    color: white;
-  }
-  
-  .title-header {
-      font-weight: bolder;
-      font-size: 1.8em;
-  }
-  
-  .trybewarts-login {
-    /* background-color: aqua; */
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo-header {
-    /* border: 1px solid blue; */
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-    display: flex;
-  }
-  
-  .login {
-    /* border: 3px solid red; */
-    padding: 0 10px;
-    display: flex;
-    
-    align-items: center;
-  }
-  
-  .trybewarts-login input {
-    /* border: 1px solid rgb(0, 255, 42); */
-    border: none;
-    border-radius: 8px;
-    height: 30px;
-    margin-right: 10px;
-    padding-left: 15px;
-  }
-  
-  /* IDs */
-  
-  #enter-button {
-    
-    background-color: rgb(77, 2, 163);
-    border: none;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 150px;
-    height: 2.3em;
-  }
+  /* border: 5px solid rgb(129, 0, 123); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  color: white;
+}
+.title-header {
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+.trybewarts-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-header {
+  /* border: 1px solid blue; */
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+}
+.login {
+  /* border: 3px solid red; */
+  padding: 0 10px;
+  display: flex;
 
-  #evaluation-form {
-    /* border: 1px solid red; */
-      display: flex;
-      width: 675px;
-      flex-direction: column;
-  }
+  align-items: center;
+}
+.trybewarts-login input {
+  /* border: 1px solid rgb(0, 255, 42); */
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+/* HEADER END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-  #trybewarts-forms-logo {
-    height: 500px;
-  }
+.dados-pessoais {
+  /* border: 1px solid red; */
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.dados-pessoais input {
+  /* border: 1px solid rgb(4, 0, 255); */
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+  margin: 5px 0;
+  padding-left: 15px;
+}
 
+/* IDs */
 
-  
-
-
-
+#enter-button {
+  background-color: rgb(77, 2, 163);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 150px;
+  height: 2.3em;
+}
+/* FORM INI >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#evaluation-form {
+  /* border: 1px solid red; */
+  width: 675px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#trybewarts-forms-logo {
+  height: 500px;
+}
+/* FORM END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

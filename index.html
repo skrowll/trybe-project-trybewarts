@@ -27,8 +27,23 @@
     </header>
     <main>
         <form action="" method="get" id="evaluation-form">
-            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybewarts logo colorido">
+            <h2>Formulário de Avaliação</h2>
+            <section class="dados-pessoais">
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+                <input type="email" name="" id="input-email" placeholder="Email">
+                <div class="casas">
+                    <label for="casa">Casa:</label>
+                    <select name="casa" id="casa">
+                        <option value="" selected disabled>Escolha uma casa</option>
+                    </select>
+                </div>
+            </section>
+
         </form>
+        <section class="logo-colored">
+            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybewarts logo colorido">
+        </section>
     </main>
 
     <script src="script.js"></script>

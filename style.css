@@ -70,6 +70,17 @@ select {
   margin-right: 10px;
   padding-left: 15px;
 }
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 /* HEADER END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .dados-pessoais {
@@ -88,6 +99,11 @@ select {
   height: 30px;
   margin: 5px 0;
   padding-left: 15px;
+}
+
+.email-houses {
+  display: flex;
+  align-content: center;
 }
 
 /* IDs */
@@ -111,5 +127,9 @@ select {
 }
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#house {
+  margin: 5px 0px;
 }
 /* FORM END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

@@ -71,7 +71,14 @@ select {
   padding-left: 15px;
 }
 
+.family-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .family {
+  padding-left: 20px;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -106,6 +113,11 @@ select {
   align-content: center;
 }
 
+.rate-line {
+  display: flex;
+  flex-direction: row;
+}
+
 /* IDs */
 
 #enter-button {
@@ -131,5 +143,13 @@ select {
 
 #house {
   margin: 5px 0px;
+}
+
+#label-family {
+  padding: 10px 0px;
+}
+
+#label-content {
+  padding-top: 10px;
 }
 /* FORM END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
